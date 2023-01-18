@@ -1,1 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form and table</title>
+        
+    </head>
+    <body>
+        <div style="text-align:center; margin-left:auto;margin-right:auto;">
+            <h3> Student Registration Form</h3>
+        <form>  
+           Name: 
+           <input type="text" name="username"/>  
+           <br><br>
+           Phone No : 
+           <input type="number" name="Phone No"/> 
+           <br> <br>
+           Date of Birth:
+           <input type="date" id="Date of Birth" name="Date of Birth"> 
+           <br><br>
+           Address:
+           <textarea></textarea>
+           <br> <br> 
+           Gender:
+           <label for="gender">Gender: </label>  
+           <input type="radio" id="gender" name="gender" value="male"/>Male  
+           <input type="radio" id="gender" name="gender" value="female"/>Female <br/> 
+           <br><br>
+           City:
+           <select id="city" name="city">
+             <option value="dewas">Dewas</option>
+             <option value="ujjain">Ujjain</option>
+             <option value="indore">Indore</option>
+             <option value="bhopal">bhopal</option>
+           </select> <br>
+            <br> <br>
+            Hobby:<br>
+          <input type="checkbox" id="Sports" name="Sports" value="Sports"/>  
+             <label for="Sports">Sports</label> <br>  
+          <input type="checkbox" id="Reading" name="Reading" value="Reading"/>  
+             <label for="Reading">Reading</label> <br>
+             <input type="checkbox" id="music" name="music" value="music"/>  
+             <label for="music">Music</label> <br>  
+          <input type="checkbox" id="drawing" name="drawing" value="drwaing"/>  
+             <label for="drawing">Drawing</label>  <br>
+          <input type="checkbox" id="painting" name="painting" value="painting"/>  
+             <label for="painting">Painting</label>  <br>
+             <input type="submit" value="submit"> 
+             <input type="reset" value="Reset">       
+         </form>  
+         </div>
+<br>
 
+       <div style="text-align:center;">
+        <h3> Students Records</h3>
+        <table style="border:1px solid black;margin-left:auto;margin-right:auto;">
+        <tr>
+          <th rowsspan='2'>SNo </th>
+          <th>Name</th>
+          <th>Phone No</th>
+          <th>Gender</th>
+          <th>City</th>
+          <th>Hobbies</th>
+        </tr>
+         <tr style="text-align: center;">
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>Sports</td>
+        </tr>
+        <tr style="text-align: center;">
+            <td>1</td>
+            <td>Shreya</td>
+            <td>9866578543</td>
+            <td>Female</td>
+            <td>Dewas</td>
+            <td>Travelling</td>
+          </tr>
+         <tr style="text-align: center;">
+          <td>1</td>
+          <td>Vipin</td>
+          <td>908765323</td>
+          <td>Male</td>
+          <td>Banglore</td>
+          <td>Reading</td>
+         </tr>
+         <tr style="text-align: center;">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Sports</td>
+          </tr>
+         <tr style="text-align: center;">
+          <td>2</td>
+          <td>Arun</td>
+          <td>9876544666</td>
+          <td>Male</td>
+          <td>Mumbai</td>
+          <td>Coooking,Sports</td>
+         </tr>
+        </table>
+
+     </div>
+    </body>
+</html>
