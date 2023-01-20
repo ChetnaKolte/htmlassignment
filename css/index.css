@@ -1,0 +1,64 @@
+input[type=text] {
+    padding: 12px 18px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+input[type=number]
+{
+    padding: 12px 18px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+input[type=date]
+{
+    padding: 12px 18px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+textarea {
+    padding: 12px 18px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+  }
+  #sub {
+    color: green;
+    border-radius: 8px;}
+.stick
+{
+    text-align: center;
+    position: sticky;
+    top: 0px;
+}
+#reset {
+        color: rgb(233, 85, 16);
+        border-radius: 8px;}
+.heading{
+    font-style: bold;
+    color: rgb(82, 51, 110);
+    text-align: center;
+}
+div{
+    text-align: left;
+    margin: auto;
+    padding-left: 100px;
+}
+.center {
+    margin: auto;
+    width: 50%;
+    border: 2px solid darkblue ;
+    padding: 50px;
+  }
+  tr,td{
+    color: orange;
+  }
+  th{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  label{
+    color: blueviolet;
+  }
